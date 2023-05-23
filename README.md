@@ -1,2 +1,3 @@
 # SE-Assignment
-This repository contains assignment given by our Software Engineering teacher.
+Muhammad Ismail Memon (2k22/CSE/66)
+Pardeep Kumar (2k22/CSE/77)
