@@ -1,5 +1,5 @@
 
-//This Program is about Adding and Deleting Numbers from an Array
+//This Program is about Inserting and Deleting Numbers from an Array
 
 import java.util.Scanner;
 public class Array{
@@ -9,10 +9,10 @@ public class Array{
 		int num[] = new int[10];
 		do
 		{
-			System.out.println("1:Add No\n2:Delete No\n3:Print Nos\n4:Exit");
+			System.out.println("1:Insert No\n2:Delete No\n3:Print Nos\n4:Exit");
 			choice = sc.nextInt();
 			switch(choice){
-			
+			//This Case is for Inserting Numbers
 			case 1:
 				System.out.println("Enter No");
 				int num1 = sc.nextInt();
@@ -21,6 +21,7 @@ public class Array{
 				if(count == num.length)
 					System.out.println("Warning!, Memory full.");
 				break;
+			//This Case is for Deleting Numbers
 			case 2:
 				System.out.println("Enter location or index you want to delete");
 				int delete = sc.nextInt();
@@ -30,6 +31,7 @@ public class Array{
 				}
 				count--;
 				break;
+			//This Case is for Printing Numbers		
 			case 3:
 				System.out.println("Printing No:s");
 				for(int i=0;i<count;i++)
@@ -39,6 +41,7 @@ public class Array{
 				break;	
 			}
 		}
+		// This is for Ending the program
 		while(choice!=4);
 			System.out.println("Program End!");
 	}
